@@ -1,0 +1,197 @@
+Variable:-
+-----------------
+>> Variable to used to hold value.
+----------------------------------------
+Note: In js we have dynamic variable structure.
+-------------------------------------------------------
+a=100;
+var a=345;
+---------------------
+var x=100;
+var x=200;
+---------------
+var a=100;
+var b=200;
+var c=a+b;
+console.log(c);
+------------------------------------
+Data Type in JS:-
+----------------------
+>> It is technique by which we can allocate memory into RAM.
+>> Data type is used to define variable.
+-------------------------------------------------------------------
+Note: To Check type of a variable we have typeof().
+a=20; number.
+a=23.45; number.
+----------------------------
+a=23;
+b=23.45;
+console.log(a);
+console.log(typeof(a));
+console.log(b);
+console.log(typeof(b));
+-----------------------------------------------
+Note: There is no data type which hold char. Everything will be treated as 'string'.
+String ->
+>> it is represented as single quotes as well as double quotes.
+a='d'; string
+b='Hello'; string
+-------------------------
+a='d';
+b='Hello';
+c="89787979";
+console.log(a);
+console.log(typeof(a));
+console.log(b);
+console.log(typeof(b));
+console.log(c);
+console.log(typeof(c));
+------------------------------------------------
+a=false;
+console.log(a);
+console.log(typeof(a));
+---------------------------------
+a=undefined;
+console.log(a);
+console.log(typeof(a));
+-----------------------------
+a=null;
+console.log(a);
+console.log(typeof(a)); // object
+--------------------------------------
+a=9007199254740991n;
+console.log(a);
+console.log(typeof(a)); // bigint
+----------------------------------------
+Comparision between var,let,const.
+---------------------------------------------
+Syntax of Block Level:-
+----------------------------
+var x=2;
+{
+let x=4;  // BLOCK LEVEL
+}
+---------------------------------------
+var - Function Level
+--------------------------
+var x=5;
+console.log(x); // 5       5 5 5
+{
+var x=25;
+console.log(x); // 25
+}
+console.log(x); // 25    // 5
+------------------------------------
+Debugging:-
+----------------
+>> To test your code line by line.
+step over -> F10
+step into -> F11
+step out  -> Shift+F11
+-----------------------------------------
+var x=5;
+console.log(x);  5
+{
+var x=25;
+console.log(x);  // 25
+}
+console.log(x); // 25
+------------------------------
+LET:-
+-------
+let x=5;
+console.log(x);  5
+{
+let x=25;
+console.log(x);  // 25
+}
+console.log(x); // 5
+--------------------------------
+let x=5;
+console.log(x);  5
+{
+let x=25;
+console.log(x);  // 25
+}
+console.log(x); // 5
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
