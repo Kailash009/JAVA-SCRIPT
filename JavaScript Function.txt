@@ -1,0 +1,191 @@
+---------------------------------
+Java Script - Function:-
+---------------------------------
+>> A function is a block of code i.e. used to perform specific operation.
+>> A function is used to divide the work of a program.
+>> Easy to maintain.
+>> Easy to debug.
+----------------------------------------------------------
+"A function is used to perform connectivity between one machine to another machine as well as connect one layer to another layer."
+------------------------------------------------------------------
+Key points to Remember while creating function:-
+1. Name of Function.
+2. Parameter passed into a function.
+3. Return Type of a function.
+-----------------------------------------------------
+Types of Function:-
+------------------------
+1. Library Function/Built-in Function.
+>> which is defined by the system.
+For Ex -> sqrt,fromcharCode,charAt(),pow(),sin(), etc.
+2. User Defined Function.
+>> which is defined by the user.
+----------------------------------------------------------
+Steps to create User Defined Function:-
+--------------------------------------------------
+1. Function Defination.
+2. Function Invocation/Calling.
+-------------------------------------------------
+Syntax: (Function Defination)
+-----------------------------------
+function functionName(comma separated arguments) // Parameters/Arguments.
+{
+// Block of Statement.
+}
+---------------------------------------------
+Syntax:- [Function Calling]
+---------------
+functionName();
+functionName(comma Separated arguments);
+--------------------------------------------
+wap to print welcome to J.S.
+---------------------------------------
+function welcomeFunction() // Function Defination
+{
+    console.log("Welcome to JS.");
+}
+
+welcomeFunction();// Function Invocation
+welcomeFunction();
+welcomeFunction();
+-----------------------------------------------------
+There are four ways to create User Defined Function -
+1. Function with no argument and no return type.
+2. Function with argument and no return type.
+3. Function with no argument and return type.
+4. Function with argument and return type.
+-------------------------------------------------------
+1. Function with no argument and no return type.
+function welcomeFunction()
+{
+    console.log('Hello Js how are you?');
+}
+
+welcomeFunction();
+--------------------------------------------------------
+2. Function with argument and no return type.
+Parameter/Argument:-
+--------------------------
+Types of parameter-
+1. Actual parameter.
+>> It takes the original value of a program. [which is given by the user]
+2. Formal parameter.
+>> It takes the copied value of actual parameter.
+----------------------------------------------------------
+const prompt=require('prompt-sync')();
+
+function multiplication(a,b) // Formal Parameter.
+{
+    console.log('Multiply=',a+b);
+}
+
+var i=parseInt(prompt('Enter First Number='))
+var j=parseInt(prompt('Enter Second Number='))
+multiplication(i,j); // Actual Parameter
+------------------------------------------------
+3. Function with no argument and return type.
+Return -> It is used to return a value to the function.
+function multiplication() // Formal Parameter. // MARKET
+{
+  var a=5,b=6;
+  return a*b; // 30
+}
+
+var siddant=multiplication(); // Function Calling. [Home]
+console.log('Multiply=',siddant);
+-----------------------------------------------------------------
+4. Function with argument and return type. [BEST]
+----------------------------------------------------------
+const prompt=require('prompt-sync')();
+
+function multiplication(a,b,c) // Formal Parameter. // MARKET // BLL
+{
+  return a*b*c; 
+}
+
+// PLL
+var i=parseInt(prompt('Enter First Number='));
+var j=parseInt(prompt('Enter Second Number='));
+var k=parseInt(prompt('Enter Third Number='));
+var siddant=multiplication(i,j,k); // Function Calling. [Home]
+console.log('Multiply=',siddant);
+-------------------------------------------------------------------------
+wap to input five no. and find avg. [using argument and return type].
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
