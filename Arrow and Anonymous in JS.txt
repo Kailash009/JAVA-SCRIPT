@@ -1,0 +1,179 @@
+Functions in JS:-
+-------------------------
+wap to find the sum of n number using parameter and return.
+----------------------------------------------------------------
+n=7
+sum=28
+----------------------
+function sumOFNumber(n)
+{
+    var sum=0;
+for(i=1;i<=n;i++) // 6<=5 False
+{
+sum+=i; // sum=15
+}
+return sum; // 15
+}
+
+var res=sumOFNumber(10);
+console.log(res);
+------------------------------------------
+Variable Length parameters in JS:-
+----------------------------------------
+Problem -> At the time of function defination whatever the parameter we passed at the time of calling it must be same, otherwise it will show an error.
+To overcome this problem we use the concept of variable length parameters.
+In this approach we can pass N number of parameters.
+>> In js we have "arguments" type keyword to make this type function.
+---------------------------------------------------------------
+For Example:-
+----------------
+function addition()
+{
+    var sum=0;
+    if(arguments.length==0)
+    {
+        return 0;
+    }
+    else 
+    {
+        for(var i=0;i<arguments.length;i++) // 0<2 1<2 2<2
+        {
+            sum+=arguments[i]; // sum=3
+        }
+        return sum; // 3
+    }
+}
+
+var a=addition();
+var b=addition(1,2);
+var c=addition(4,5,8);
+var d=addition(1,2,3,4,5,6,7,8,9);
+var e=addition(87,54,32,12);
+console.log(a,b,c,d,e);
+-------------------------------------------------------------
+Note: Function is Like a variable.
+function addition() // 1000
+{
+    console.log("Hello Function How are You??");
+}
+
+var a=addition; // 1000
+a();
+------------------------------------------------------
+Inline Function:-
+-----------------------
+>> Write  a function in one line is known as inline function.
+>> Inline is like anonymous function when we assign function to variable.
+var msg=function() // Anonymous Function
+{
+    console.log("Hello Java Script");
+}
+var res=msg;
+res();
+--------------------------------------------------
+var msg=function(a,b) // Anonymous Function
+{
+    return a+b;
+}
+var res=msg(2,3);
+console.log(res);
+--------------------------------------------------
+Arrow Function:-
+------------------------------
+var res=()=>{
+    console.log("Hello Arrow Function..");
+}
+
+res();
+res();
+-----------------------------------------
+var addition=(a,b,c)=>{
+return a+b+c;
+}
+
+var res=addition(3,4,5);
+console.log(res);
+-----------------------------------
+// wap to find the factorial using arrow function.
+const fact=(n)=>{
+    var f=1;
+    for(let i=1;i<=n;i++)
+    {
+        f=f*i;
+    }
+    return f;
+}
+var res=fact(5);
+console.log('Factorial='+res);
+-------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
