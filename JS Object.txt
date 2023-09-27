@@ -1,0 +1,147 @@
+BackTick:-
+--------------------
+>>  ` `
+>> with the help of backtick we can pass inside string as a variable.
+>> Here we use two symbols - $ and {}
+var username="Rahul";
+var age=23;
+var info=`your name is ${username} and age is ${age}`;
+console.log(info);
+//console.log("Your Name is:"+username+" and age is:"+age);
+----------------------------------------------------------------
+Array as an object:-
+-----------------------------
+var obj=[
+    {'id':101,'name':'rahul','age':23},
+    {'id':102,'name':'ajay','age':12},
+    {'id':103,'name':'shivam','age':34},
+    {'id':104,'name':'kunal','age':24},
+    {'id':105,'name':'tinku','age':53},
+];
+process.stdout.write("id name age\n")
+for(var res in obj)
+{
+    console.log(obj[res].id,obj[res].name,obj[res].age);
+}
+-------------------------------------------------------------
+ForEach:-
+-------------
+Syntax:-
+--------------
+forEach(callbackFunc,value,index,array)
+-----------------------------------------------
+var arr=[1,2,3,4,5];
+console.log(arr);
+function findSquare(value,index,array)
+{
+array[index]=value*value*value;
+}
+arr.forEach(findSquare);  // 5 Times
+console.log(arr);
+---------------------------------------------------------
+var emp=[
+        {'id':101,'name':'rajesh','salary':20000},
+        {'id':102,'name':'subham','salary':30000},
+        {'id':103,'name':'ajay','salary':40000}
+    ];
+console.log(emp);
+function calcInterest(value,index,array)
+{
+    value.salary+=value.salary*0.1;
+}
+emp.forEach(calcInterest);
+console.log(emp);
+-----------------------------------------------------------
+JSON:-
+------------
+>> It stands for Java Script object notation.
+>> Json is a light weight.
+>> json is used to transfer large amount of data.
+>> widely used in api.
+---------------------------------------------------------------
+Store Employee information in XML:-
+---------------------------------------
+<employee>
+<eid>101</eid>
+<name>rahul</name>
+<age>12</age>
+<salary>34444</salary>
+</employee>
+-------------------------------------------------
+Store Employee information in JSON Format:-
+-------------------------------------------------
+{
+"id":101,
+"name":"rahul",
+"age":12,
+"salary":34444
+} ==> JSON FORMAT.
+---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
